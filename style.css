@@ -153,6 +153,36 @@ body {
     color: #121212;
 }
 
+/*====== DONATION UPDATES ======*/
+.donation-updates {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.donation-updates h1 {
+    font-size: 60px;
+    color: #121212;
+}
+
+.donation-updates p {
+    font-size: 25px;
+    color: #707070;
+}
+
+#summery {
+    display: flex;
+}
+
+#summery div {
+    width: 100%;
+}
+
+#summery h1 {
+    color: #B7BB1E;
+}
+
 /*====== GET UPDATE SECTION ======*/
 
 .get-update-section {
