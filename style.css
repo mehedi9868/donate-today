@@ -72,7 +72,6 @@ body {
 }
 
 .selected-amount {
-    display: ;
     background-color: #FFEEEE;
     border: 5px solid #FF6868;
     color: #FF5959;
@@ -146,12 +145,12 @@ body {
 }
 
 .get-update-section h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #121212;
 }
 
 .get-update-section p {
-    font-size: 20px;
+    font-size: 25px;
     color: #707070;
 }
 
@@ -201,10 +200,16 @@ body {
 footer {
     text-align: center;
     background-color: #0B0D17;
-    color: #999BA2;
     padding: 40px;
 }
 
 footer h1 {
     color: #FF5959;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer p {
+    color: #999BA2;
+    font-size: 20px;
 }
