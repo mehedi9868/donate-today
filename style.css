@@ -72,8 +72,10 @@ body {
     display: flex;
 }
 
-.suggested-amount p {
+.suggested-amount h2 {
     background-color: #FAFAFA;
+    color: #707070;
+    font-size: 30px;
     padding: 50px 40px;
     margin-right: 20px;
     border-radius: 10px;
@@ -102,6 +104,7 @@ body {
 
 .donate-plan p {
     font-size: 25px;
+    font-weight: 700;
     color: #707070;
 }
 
@@ -172,9 +175,9 @@ body {
 
 .email-input {
     background-color: #D9D9D9;
-    color: #7070770;
+    color: #707070;
     border: none;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0 0 5px;
     padding: 20px 60px 20px 20px;
     font-size: 20px;
 }
