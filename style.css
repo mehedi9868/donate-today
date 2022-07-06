@@ -77,19 +77,22 @@ body {
     color: #FF5959;
 }
 
+/*====== DONATE PLAN SECTION ======*/
+
 .donate-plan {
     text-align: center;
-    margin: 0px 200px 150px;
-
+    width: 80%;
+    margin: auto;
 }
 
 .donate-plan h1 {
-    font-size: 50px;
     color: #121212;
+    font-weight: 700;
+    font-size: 60px;
 }
 
 .donate-plan p {
-    font-size: 20px;
+    font-size: 25px;
     color: #707070;
 }
 
@@ -99,45 +102,41 @@ body {
 }
 
 .plan-one {
-    background-color: #FFEEEE;
+    background-color: #EDF5F6;
     border-radius: 5px;
     margin-right: 30px;
     padding: 50px 20px;
 }
 
 .plan-one h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: #121212;
 }
 
-.plan-one p {
-    color: #707070;
-}
-
 .plan-two {
-    background-color: #FFF4D6;
+    background-color: #FFEEEE;
     border-radius: 5px;
     margin-right: 30px;
     padding: 50px 20px;
 }
 
 .plan-two h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: #121212;
 }
 
 .plan-three {
-    background-color: #EDF5F6;
+    background-color: #FFF4D6;
     border-radius: 5px;
     padding: 50px 20px;
 }
 
 .plan-three h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: #121212;
 }
 
-/*====== GET UPDATE SECTION =====*/
+/*====== GET UPDATE SECTION ======*/
 
 .get-update-section {
     text-align: center;
