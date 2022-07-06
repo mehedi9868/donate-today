@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.caption-with-bg {
+.banner-section {
     background-image: url(images/donation14.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12,20 +12,20 @@ body {
     padding: 100px;
 }
 
-.caption-text {
+.banner-text {
     padding-top: 70px;
 }
 
-.caption-text h1 {
+.banner-text h1 {
 
     color: white;
-    font-size: 70px;
+    font-size: 80px;
 }
 
-.caption-text p {
+.banner-text p {
 
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .donate-btn {
@@ -39,39 +39,47 @@ body {
 .donate-btn a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
+/*====== DONATE SECTION ======*/
+
 .donate-section {
-    margin: 150px;
+    width: 50%;
+    margin: auto;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .donate-section h1 {
     color: #121212;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .donate-section p {
     color: #707070;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.input-amount {
+.other-amount {
     color: #707070;
-    text-align: center;
     border: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.suggested-amount {
+    display: flex;
 }
 
 .suggested-amount p {
     background-color: #FAFAFA;
-    display: inline-block;
     padding: 50px 40px;
     margin-right: 20px;
     border-radius: 10px;
 }
 
-.selected-amount {
+#selected {
     background-color: #FFEEEE;
     border: 5px solid #FF6868;
     color: #FF5959;
@@ -83,6 +91,7 @@ body {
     text-align: center;
     width: 80%;
     margin: auto;
+    margin-bottom: 150px;
 }
 
 .donate-plan h1 {
